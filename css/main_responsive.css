@@ -180,7 +180,7 @@ http://themeforest.net/licenses
 	}
 	.page-nav{
 		top: 76px;
-		left: -120px;
+		right: 200px;
 		opacity: 0;
 		visibility: hidden;
 		-webkit-transition: 0.3s;
