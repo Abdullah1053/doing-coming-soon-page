@@ -15,7 +15,7 @@ http://themeforest.net/licenses
 @media (max-width : 1024px){
 	#fp-nav,
 	#fp-nav.right{
-		margin-right: 0px;
+		margin-left: 0px;
 	}
 	.section {
 		padding-left: 16px;

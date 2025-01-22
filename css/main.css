@@ -444,7 +444,7 @@ strong,
 }
 .header-top .logo-wrapper {
   position: relative;
-  float: left;
+  float: right;
   margin-left: 48px;
   margin-top: 16px;
 }
@@ -466,7 +466,7 @@ strong,
   margin-right: 8px;
 }
 .header-top .site-nav {
-  float: right;
+  float: left;
   margin-top: 24px;
   margin-right: 48px;
 }
@@ -515,7 +515,7 @@ strong,
 .page-nav {
   position: fixed;
   top: 144px;
-  left: 48px;
+  right: 48px;
   display: block;
   z-index: 10;
 }
@@ -2647,3 +2647,8 @@ strong,
 }
 
 /*# sourceMappingURL=main.css.map */
+@media  (max-width: 480px){
+  .header-top .logo-wrapper{
+    float:left 
+  }
+}
